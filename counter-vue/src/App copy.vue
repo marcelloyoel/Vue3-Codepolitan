@@ -1,14 +1,7 @@
-<script setup>
+<!-- <script setup>
 import {ref} from "vue";
+
 const count = ref(1);
-
-function increase(){
-  count.value++;
-}
-
-function decrease(){
-  count.value--;
-}
 </script>
 
 <template>
@@ -16,8 +9,8 @@ function decrease(){
         <h1>Counter</h1>
         <span id="value">{{ count }}</span>
         <div class="">
-            <button @click="decrease" id="decrement">-</button>
-            <button @click="increase" id="increment">+</button>
+            <button @click="count--" id="decrement">-</button>
+            <button @click="count++" id="increment">+</button>
         </div>
     </main>
 </template>
@@ -64,4 +57,4 @@ button:active{
         transform: scale(1);
     }
 }
-</style>
+</style> -->
